@@ -1,0 +1,9 @@
+[web]
+
+ansible-node-01 ansible_host=43.205.120.212
+ansible-node-02 ansible_host=65.2.39.178
+
+[web:vars]
+
+ansible_user=ubuntu 
+ansible_ssh_private_key_file="./mujab-key.pem"
